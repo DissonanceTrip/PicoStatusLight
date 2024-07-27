@@ -11,6 +11,10 @@ Pimoroni Pico DisplayPack 2.0 ~ $16.00 USD
 
 A micro-USB cable that does data (some just do power and will not work) ~ $2-$8 USD but you probably already have one somewhere.
 
+# Print The Case
+Print the case to hold everything to a wall:
+https://makerworld.com/en/models/233039
+
 # Setup
 Project uses Pimoroni's custom firmware for the Pico W: https://github.com/pimoroni/pimoroni-pico/releases
 
