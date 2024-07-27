@@ -5,11 +5,11 @@ A status light that doesn't suck or cost $60
 This repo is not finished yet. If ya wanna use any of this right now you'll have to figure it out yourself.
 
 # Hardware Needed
-Raspberry Pi Pico W (with headers)
+Raspberry Pi Pico W (with headers) ~ $7.00 USD
 
-Pimoroni Pico DisplayPack 2.0 
+Pimoroni Pico DisplayPack 2.0 ~ $16.00 USD
 
-A micro-USB cable that does data (some just do power and will not work)
+A micro-USB cable that does data (some just do power and will not work) ~ $2-$8 USD but you probably already have one somewhere.
 
 # Setup
 Project uses Pimoroni's custom firmware for the Pico W: https://github.com/pimoroni/pimoroni-pico/releases
@@ -33,7 +33,7 @@ python scripts for http GET over specific network interface (useful if you use a
 # Control from anywhere on your local network!
 Any device that can send an HTTP GET request can use this setup - however some devices make this super annoying (cough Windows cough) so here is how I set it up on my devices:
 
-Windows computer (with VPN): powershell app that detects if zoom is running automatically, allows manual control, calls python scripts for actual http GET requests to specify network interface to send on local network instead of over VPN (hey Palo can you make your VPN not suck please?)
+Windows computer (with VPN): powershell app that detects if zoom is running automatically, allows manual control, calls python scripts for actual http GET requests to specify network interface to send on local network instead of over VPN because my job wont enable split tunneling. 
 
 iPhone: shortcuts set to HTTP GET request that calls the specific control URL for the mode needed
 
